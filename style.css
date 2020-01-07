@@ -1,0 +1,148 @@
+body {
+	margin: 50px;
+	background-image: url('img/dark-honeycomb.png');
+	color:white;
+	font-family: monospace;
+}
+.api-result{
+	color: #31708f;
+    background-color: #d9edf7;
+    display: table;
+	border: 2px solid #bce8f1;
+	border-radius: 4px;
+	padding: 5px;
+	font-family: monospace;
+    font-size: 18px;
+    margin: 0 auto -70px auto;
+}
+.left{float:left;font-weight: bold;}
+.right{float:right;margin-left: 5px;}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+ }
+label span {
+	float: left;
+	text-align: right;
+	width: 105px;
+	padding-right: 15px;
+}
+form {
+	display: inline-block;
+	border: 1px solid #e8e8e8;
+	padding: 15px;
+	background-color: #1d1d1d;
+	float:left;
+    margin-top: 10%;
+
+}
+textarea{
+	height: 100px;
+    width: 173px;
+}
+.ban-panel{
+	margin-left: 10%;
+
+}
+.ban-panel div .button{
+	float: left;
+	margin-left: 20px;
+}
+form.usersPanel{    padding-left: 165px;}
+form div {text-align: center;}
+hr {height: 0; border: 0 none; border-bottom: 1px solid #e8e8e8;}
+
+
+.user {
+	border-bottom: 2px solid white;
+    margin-bottom: 15px;
+}
+input.login {
+	float: left;
+}
+input.id, input.secret {
+	width:530px;
+}
+
+.saveUsers{
+	width: 60%;
+    margin: 0 20%;
+}
+.user.new{
+	display:none;
+}
+.hidden{display:none;}
+.acc-auth{
+    float: left;
+    margin-left: -135px;
+    border-right: solid white 1px;
+    height: 80px;
+    padding-right: 23px;
+    width: 105px;
+}
+.acc-auth label{
+	margin-top: 10px;
+
+}
+.authorizeLink{text-decoration: none; color:white;}
+.button{
+	background-color: #31708f;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: -5px;
+    font-family: monospace;
+    font-size: 17px;
+    border: none;
+    border-bottom: 3px solid white;
+	cursor: pointer;
+}
+.button:active{
+	border-bottom:none;
+	border-top: 3px solid #1d1d1d;
+}
+.icon-ok:before{
+	color: green;
+    font-size: 29px;
+    margin: -6px 0px;
+}
+.icon-cancel:before{
+	color: red;
+    font-size: 29px;
+    margin: -6px 0px;
+}
+
+.logout{
+	background-color: #1d1d1d;
+    border: 1px solid #e8e8e8;
+    padding: 15px 0px 15px 15px;
+	display: table;
+    width: auto;
+    float: right;
+	
+  /* position: absolute;*/
+    right: 65px;
+}
+.logout .button{
+	float:left;
+	margin-right:15px;
+}
+.logout form{
+	display: table;
+    border: none;
+    background: none;
+    float: left;
+    margin-top: 0;
+    padding: 0;
+	width: 1px;
+}
+.change-pswd{
+	display: none !important;
+	width: 195px !important;
+    clear: both;
+}
+.change-pswd.active{
+    display: block !important;
+    margin-top: 30px;
+}
